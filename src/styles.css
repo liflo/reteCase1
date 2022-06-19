@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+svg.socket-output-text path {
+  stroke: red !important;
+}
+svg.socket-output-text path.marker {
+  fill: red !important;
+}
+
+div.socket.input.text,
+div.socket.output.text {
+  background: red !important;
+}
+
+.socket.output {
+  float: right;
+}
+
+.input-title {
+  max-width: 200px;
+}
+
+.content {
+  display: table;
+  width: 100%;
+}
+
+.column,
+.textarea {
+  display: table-cell;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+/* .input-title,
+.output-title {
+  vertical-align: middle;
+  color: white;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 14px;
+} */
+/* .input-control {
+  vertical-align: middle;
+  display: inline-block;
+} */
